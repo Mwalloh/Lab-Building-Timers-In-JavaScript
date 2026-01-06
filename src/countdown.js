@@ -26,6 +26,5 @@ function countdownTimer(startTime, interval) {
     }
   }, interval);
 }
-countdownTimer(10, 1000);
 
 module.exports = { countdownTimer };

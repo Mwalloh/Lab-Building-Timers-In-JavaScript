@@ -36,5 +36,6 @@ function stopRecurringTimer(timerId) {
   // Stop the timer using clearInterval
   clearInterval(timerId);
 }
+stopRecurringTimer(timerId);
 
 module.exports = { recurringTimer, stopRecurringTimer };
